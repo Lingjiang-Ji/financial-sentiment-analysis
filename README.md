@@ -26,7 +26,7 @@ The pipeline automatically downloads filings, cleans and tokenizes text, applies
 - **Visualization**  
   Plots the time-series of sentiment scores vs. stock prices (via `yfinance`).
   
-![sentiment score](outputs/figures/sentiment_score.png)
+![sentiment score](output/figures/sentiment_score.png)
 
 - **Case Study**  
   Example: **AMD (2015–2024)** — filings sentiment correlates positively with stock performance from 2018–2022 and diverges after 2022Q3.
@@ -86,7 +86,7 @@ From early 2018 to around Q3 2022, sentiment and stock price tend to move in the
 | 2018-2022 | ↑ improving | 10 → 150 | **Positive correlation** ✅ |
 | 2022-2024 | ↓ declining | 150 → 100 | **Negative correlation** ❌ |
 
-![sentiment price](outputs/figures/sentiment_price.png)
+![sentiment price](output/figures/sentiment_price.png)
 
 ---
 
